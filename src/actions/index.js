@@ -10,6 +10,6 @@ export function fetchWeather(city) {
   console.log('request', request);
   return {
     type: FETCH_WEATHER,
-    payload: request
+    payload: request // returns a promise waits to be resolved (that is handled by our middleware)
   };
 }
