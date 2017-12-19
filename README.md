@@ -2,6 +2,8 @@
 
 This is a simple weather app built using React and Redux. Weather data is pulled from the OpenWeatherMap API, and users can search for specific cities. A simple chart and Google Map are displayed for each selected city.
 
+![Weather App Preview](img/weather-app.png)
+
 ## Getting Started
 
 * Clone the repository
